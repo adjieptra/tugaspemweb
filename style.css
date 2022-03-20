@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+	height: 100px;
+	width: 100%;
+	text-align: left;
+	background-color: #0d6b0a;
+	position: fixed;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar h1{
+	color: rgb(0, 0, 0);
+	margin-top: 12px;
+    order: 1;
+    margin-left: 10px;
+}
+.navbar img{
+    border-radius: 50%;
+    width: 95px;
+    height: 95px;
+    border: 2px solid;
+    order: 2;
+    margin-right: 10px;
+    
+}
+.content{
+    background-image: url(salopa1.jpg);
+    background-size: cover;
+    background-position: center;
+    text-indent: 50px;
+	color: rgb(4, 0, 235);
+	height: 100vh;
+    width: 100%;
+    
+}
+.content .aiu{
+    line-height: 35px;
+    margin-top: 70px;
+}
+.header{
+	text-align: center;
+}
+p {
+    font-family: 'Times New Roman';
+    font-size:x-large;
+    line-height: 2.75em;
+}
+
+i {
+    font-family: 'Times New Roman';
+    color: orange;
+}
+
+h2 {
+    font-family: 'Times New Roman';
+    color: #1B9CFC;
+}
